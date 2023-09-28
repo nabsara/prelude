@@ -1,18 +1,50 @@
-*/
-.bg-cover {
-    background-size: cover !important;
+body {
+    background-color: black;
+    /*background-image: url(assets/img/prelude_photo_background.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;**/
+    color: white;
+    font-family: system-ui;
+    font-size: 16px;
 }
 
+/* === BASE HEADING === */ 
 
+  
+  /* === HEADING STYLE #1 === */
+.one h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+ 
+  /***/
+div {
+    text-align: center;
+}
+.title-prelude {
+    background-color: transparent;
+    padding: 25px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+.intro {
+    background-color: transparent;
+    padding: 25px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
 
-/*
-*
-* ==========================================
-* FOR DEMO PURPOSES
-* ==========================================
-*
-*/
-
-body {
-    min-height: 100vh;
+.title-intro {
+    background-color: black;
+    background-image: url(assets/img/prelude_photo_background.png);
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+    
 }
